@@ -1,3 +1,7 @@
+
+# while: Teste no início
+# do: Teste no final
+
 <?php 
 
     $entrada = 100;
