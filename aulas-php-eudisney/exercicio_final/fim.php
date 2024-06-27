@@ -49,7 +49,7 @@ function estatistica($dados){
     echo "A média do salário da população: R$".number_format($mediaSalario,2)."\n";
     echo "O maior do salário: R$".number_format($mediaSalario,2)."\n";
     echo "A média de números de filhos: ".number_format($mediaFilhos). "\n";
-    echo "A porcentagem de pessoas com salário até R$ 350,00: ".number_format($porcentagemSalario350)."%";
+    echo "A porcentagem de pessoas com salário até R$ 350,00: ".number_format($porcentagemSalario350,2)."%";
 }   
 
 # Chamar a função
